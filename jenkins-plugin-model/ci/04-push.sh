@@ -8,4 +8,4 @@ else
     docker login -u $DOCKER_HUB_USER -p $DOCKER_HUB_PASSWORD
 fi
 
-docker push ferbarajas/selfContainedApp_build_workflow:$1
+docker push ferbarajas/selfcontainedapp_build_workflow:$1
